@@ -1,12 +1,12 @@
 {
-  "name": "react-cities-test",
+  "name": "react-app-test",
   "version": "0.0.1",
   "description": "About",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/mhcorbinapps/cities_app_test"
   },
-  "private": false,
+  "private": true,
   "sideEffects": false,
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
