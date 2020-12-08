@@ -1,2 +1,3 @@
-# cities_app_test
-Test Application
+# readme
+
+To start the dev server just `yarn start`.
