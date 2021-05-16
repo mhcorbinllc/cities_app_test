@@ -1,0 +1,28 @@
+.data-table-container {
+    width: 400px;
+    margin-top: 5px;
+    border-radius: 0.25rem;
+    border: 1px solid;
+    background-color: #fff;
+
+    & table {
+        width: inherit;
+
+        & thead {
+            border-bottom: 2px black solid;
+        }
+
+        & thead tr td {
+            text-align: center;
+            font-weight: bold;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        & tbody tr td {
+            text-align: center;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
+}

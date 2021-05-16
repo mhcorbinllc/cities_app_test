@@ -1,0 +1,13 @@
+.form-container.sticky {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .form-container {
+        flex: 0 0 88.33%;
+    }
+}

@@ -1,0 +1,33 @@
+.loading-spinner {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    vertical-align: text-bottom;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    animation: spinner 1s linear infinite;
+
+    &.sm {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    &.md {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    &.lg {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    @keyframes spinner {
+        100% {
+            -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);        
+        }
+    }
+}
