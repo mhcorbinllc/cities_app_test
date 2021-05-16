@@ -1332,6 +1332,32 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
+"@fortawesome/fontawesome-common-types@^0.2.35":
+  version "0.2.35"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.35.tgz#01dd3d054da07a00b764d78748df20daf2b317e9"
+  integrity sha512-IHUfxSEDS9dDGqYwIW7wTN6tn/O8E0n5PcAHz9cAaBoZw6UpG20IG/YM3NNLaGPwPqgjBAFjIURzqoQs3rrtuw==
+
+"@fortawesome/fontawesome-svg-core@^1.2.35":
+  version "1.2.35"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.35.tgz#85aea8c25645fcec88d35f2eb1045c38d3e65cff"
+  integrity sha512-uLEXifXIL7hnh2sNZQrIJWNol7cTVIzwI+4qcBIq9QWaZqUblm0IDrtSqbNg+3SQf8SMGHkiSigD++rHmCHjBg==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.35"
+
+"@fortawesome/free-solid-svg-icons@^5.15.3":
+  version "5.15.3"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.15.3.tgz#52eebe354f60dc77e0bde934ffc5c75ffd04f9d8"
+  integrity sha512-XPeeu1IlGYqz4VWGRAT5ukNMd4VHUEEJ7ysZ7pSSgaEtNvSo+FLurybGJVmiqkQdK50OkSja2bfZXOeyMGRD8Q==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.35"
+
+"@fortawesome/react-fontawesome@^0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.14.tgz#bf28875c3935b69ce2dc620e1060b217a47f64ca"
+  integrity sha512-4wqNb0gRLVaBm/h+lGe8UfPPivcbuJ6ecI4hIgW0LjI7kzpYB9FkN0L9apbVzg+lsBdcTf0AlBtODjcSX5mmKA==
+  dependencies:
+    prop-types "^15.7.2"
+
 "@icons/material@^0.2.4":
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
@@ -2496,6 +2522,11 @@
   resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.6.tgz#a9ca4b70a18b270ccb2bc0aaafefd1d486b7ea74"
   integrity sha512-W+bw9ds02rAQaMvaLYxAbJ6cvguW/iJXNT6lTssS1ps6QdrMKttqEAMEG/b5CR8TZl3/L7/lH0ZV5nNR1LXikA==
 
+"@types/tapable@^1":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.7.tgz#545158342f949e8fd3bfd813224971ecddc3fac4"
+  integrity sha512-0VBprVqfgFD7Ehb2vd8Lh9TG3jP98gvr8rgehQqzztZNI7o8zS8Ad4jyZneKELphpuE212D8J70LnSNQSyO6bQ==
+
 "@types/uglify-js@*":
   version "3.11.1"
   resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.11.1.tgz#97ff30e61a0aa6876c270b5f538737e2d6ab8ceb"
@@ -2522,7 +2553,19 @@
     "@types/source-list-map" "*"
     source-map "^0.7.3"
 
-"@types/webpack@^4.4.31", "@types/webpack@^4.41.8":
+"@types/webpack@^4.4.31":
+  version "4.41.28"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.28.tgz#0069a2159b7ad4d83d0b5801942c17d54133897b"
+  integrity sha512-Nn84RAiJjKRfPFFCVR8LC4ueTtTdfWAMZ03THIzZWRJB+rX24BD3LqPSFnbMscWauEsT4segAsylPDIaZyZyLQ==
+  dependencies:
+    "@types/anymatch" "*"
+    "@types/node" "*"
+    "@types/tapable" "^1"
+    "@types/uglify-js" "*"
+    "@types/webpack-sources" "*"
+    source-map "^0.6.0"
+
+"@types/webpack@^4.41.8":
   version "4.41.25"
   resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.25.tgz#4d3b5aecc4e44117b376280fbfd2dc36697968c4"
   integrity sha512-cr6kZ+4m9lp86ytQc1jPOJXgINQyz3kLLunZ57jznW+WIAL0JqZbGubQk4GlD42MuQL5JGOABrxdpqqWeovlVQ==
