@@ -30,7 +30,7 @@ export const App = (): JSX.Element => {
       <ul>
         <li>You can use MUI, but it is not mandatory.</li>
         <li>Implement and use the <code>src/api/apiSearchCities.ts</code> to fetch the items.</li>
-        <li>Do not remove the atificial delay from <code>src/api/apiSearchCities.ts</code>.</li>
+        <li>Do not remove the artificial delay from <code>src/api/apiSearchCities.ts</code>.</li>
         <li>Provide a clean and professional app scaffold and code style.</li>
         <li>Utilize the available scripts of this package.</li>
       </ul>
@@ -54,8 +54,8 @@ export const App = (): JSX.Element => {
         +----------------------------+<br/>
         | [Search bar]               |            <b>Selected</b><br/>
         +----------------------------+            +------------------------+<br/>
-        | {">"} [V] State                |            | <span style={styleGray}>(Render in the best</span>    |<br/>
-        | {"v"} [x] State                |            | <span style={styleGray}>possible better way</span>    |<br/>
+        | {">"} [V] State A              |            | <span style={styleGray}>(Render in the best</span>    |<br/>
+        | {"v"} [x] State B              |            | <span style={styleGray}>possible better way</span>    |<br/>
         |       | [ ] City A         |            | <span style={styleGray}>the selected states</span>    |<br/>
         |       | [V] City B         |            | <span style={styleGray}>and cities.)</span>           |<br/>
         |       | ...                |            |                        |<br/>
