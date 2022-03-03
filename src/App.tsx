@@ -41,9 +41,8 @@ export const App = (): JSX.Element => {
         <li>If something is unclear or missing, please don't hesitate to contact us.</li>
       </ul>
 
-
       <h2>How to send your test</h2>
-      Compress the package without the <code>node_modules</code> and send it to us.<br/>
+      Compress this package without the <code>node_modules</code> and send it to us.<br/>
 
       <h1>Layout</h1>
       <div
