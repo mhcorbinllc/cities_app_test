@@ -13,7 +13,7 @@ export const App = (): JSX.Element => {
       <h2>Request</h2>
       This app is about searching and selecting US states and cities.<br/>
       There is a tree with checkboxes and a search bar on the left.<br/>
-      On the right is the list of the selected cities.<br/>
+      On the right is the list of the selected States and Cities.<br/>
       Use your imagination to render the list of the selected cities (no specific acceptance criteria).<br/>
 
       <h2>UX Acceptance criteria</h2>
@@ -23,7 +23,6 @@ export const App = (): JSX.Element => {
         <li>The search (filtering) should be like a Search Engine search.</li>
         <li>On search, the app should not clear the checked items.</li>
         <li>The app should not clear the Selected list on the right on search.</li>
-        <li>Beautify the UI as you want.</li>
       </ul>
 
       <h2>DEV Acceptance criteria</h2>
@@ -32,13 +31,19 @@ export const App = (): JSX.Element => {
         <li>Implement and use the <code>src/api/apiSearchCities.ts</code> to fetch the items.</li>
         <li>Do not remove the artificial delay from <code>src/api/apiSearchCities.ts</code>.</li>
         <li>Provide a clean and professional app scaffold and code style.</li>
-        <li>Utilize the available scripts of this package.</li>
       </ul>
 
       <h2>Notes</h2>
       <ul>
         <li>Imagine you deliver this code and product to a final customer.</li>
         <li>If something is unclear or missing, please don't hesitate to contact us.</li>
+      </ul>
+
+      <h2>Bonus</h2>
+      <i>Not mandatory.</i>
+      <ul>
+        <li>Beautify the UI as you want.</li>
+        <li>Utilize the available scripts of this package.</li>
       </ul>
 
       <h2>How to send your test</h2>
