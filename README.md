@@ -1,3 +1,3 @@
 # readme
 
-To start the dev server just `yarn start`.
+To start run `yarn start`.
